@@ -4282,6 +4282,31 @@ libgps:
   opensuse: [gpsd-devel]
   rhel: [gpsd-devel]
   ubuntu: [libgps-dev]
+libgraphicsmagick:
+  arch: [graphicsmagick]
+  debian: 
+    bullseye: [libgraphicsmagick++-q16-12, graphicsmagick-libmagick-compat]
+    bookworm: [libgraphicsmagick++-q16-12, graphicsmagick-libmagick-compat]
+    trixie: [libgraphicsmagick++-q16-12t64, graphicsmagick-libmagick-compat]
+  fedora: [GraphicsMagick-c++]
+  gentoo: [media-gfx/graphicsmagick]
+  macports: [GraphicsMagick]
+  nixos: [graphicsmagick]
+  openembedded: [graphicsmagick@meta-ros2]
+  rhel: [GraphicsMagick-c++]
+  ubuntu:
+    jammy: [libgraphicsmagick++-q16-12, graphicsmagick-imagemagick-compat]
+    '*': [libgraphicsmagick++-q16-12t64, graphicsmagick-imagemagick-compat]
+libgraphicsmagick-dev:
+  arch: [graphicsmagick]
+  debian: [libgraphicsmagick++1-dev, graphicsmagick-libmagick-dev-compat]
+  fedora: [GraphicsMagick-c++-devel]
+  gentoo: [media-gfx/graphicsmagick]
+  macports: [GraphicsMagick]
+  nixos: [graphicsmagick]
+  openembedded: [graphicsmagick@meta-ros2]
+  rhel: [GraphicsMagick-c++-devel]
+  ubuntu: [libgraphicsmagick++1-dev, graphicsmagick-libmagick-dev-compat]
 libgrpc:
   alpine: [grpc-dev]
   arch: [grpc]
